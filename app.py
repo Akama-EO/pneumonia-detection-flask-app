@@ -17,7 +17,8 @@ sys.path.append(ROOT_DIR)
 
 # import Mask RCNN
 from mrcnn.config import Config
-from mrcnn import model as modellib, utils
+from mrcnn import model as modellib
+from mrcnn import utils
 from mrcnn import visualize
 
 import keras.backend
